@@ -171,6 +171,7 @@ a, li{
    display: flex;
    flex-direction: column;
    gap: 24px;
+   margin-bottom: 96px;
 }
 
 .vagas_abertas{
@@ -212,3 +213,107 @@ a, li{
     margin-bottom: 40px;
 }
 
+.depoimento{
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+    text-align: center;
+    padding: 64px;
+    margin-bottom: 96px;
+}
+
+.tag-depoimento{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--cor-vermelho);
+    margin-bottom: 16px;
+}
+
+.desc-depoimento{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: var(--cor-cinza-dark);
+    margin-bottom: 32px;
+}
+
+.depoimento img{
+    margin-bottom: 16px;
+}
+
+.nome-depoimento{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-cinza-dark);
+
+}
+
+.depoimento span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #667085;
+}
+
+footer{
+    background-color: #F9FAFB;
+    padding: 64px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-footer{
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: var(--cor-cinza-dark);
+    margin-bottom: 20px;
+}
+
+.desc-footer{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--cor-cinza);
+    margin-bottom: 40px;
+}
+
+.form-footer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 13px 0px;
+    width: 360px;
+}
+
+.button-news{
+    background: #8E2424;
+    border: 1px solid #8E2424;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 12px 18px;
+    color: var(--cor-branco);
+}
+
+.copyright{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-cinza);
+}
