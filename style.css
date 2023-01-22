@@ -19,8 +19,9 @@ body, html{
     padding: 0;
 }
 
-a{
+a, li{
     text-decoration: none;
+    list-style-type: none;
 }
 
 
@@ -37,6 +38,7 @@ a{
     justify-content: space-between;
     margin-top: 10px;
     padding: 1rem;
+    margin-bottom: 90px;
 }
 
 .menu__header ul{
@@ -66,4 +68,70 @@ a{
     color: #ffffff;
     padding: 10px 18px;
     margin-left: 1rem;
+}
+
+.desc-inicio{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.sobre-nos{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-vermelho);
+    margin-bottom: 24px;
+}
+
+.desc-inicio h1{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -0.02em;
+    color: var(--cor-cinza-dark);
+    margin-bottom: 24px;
+}
+
+.descricao{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: var(--cor-cinza);
+    max-width: 790px;
+    margin-bottom: 6.25rem;
+}
+
+.metricas-info{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 90px;
+    align-items: center;
+}
+
+.dados{
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: -0.02em;
+    color: var(--cor-vermelho);
+    margin-bottom: 12px;
+}
+
+.titulo-metrica{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: var(--cor-cinza-dark);
+    margin-bottom: 8px;
+}
+
+.desc-metricas{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--cor-cinza);
 }
